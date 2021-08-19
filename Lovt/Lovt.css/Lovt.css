@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+body {
+    font-family: 'Ropa Sans', sans-serif;
+    color: #555555;
+   background: #FFFFFF;
+   margin: 0;
+   padding: 0;
+}
+
+.dark-Theme {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-Theme h1,
+.dark-Theme h2 {
+    color: #FFFFFF;
+}
+
+.dark-Theme .SeuEstilo .YourStyle,
+.dark-Theme article,
+.dark-Theme h3 {
+    color: #ffffff;
+} 
+
+
+
+.dark-Theme .New,
+.dark-Theme .Sale {
+    background-color: #666666;
+}
+
+.dark-Theme footer {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+    width: 608px;
+    max-width: 100%;
+    margin: 0 auto;
+    /* margin: 10px; todos os lados */
+    /* margin: 10px 20px; top/bottom, left/right */
+    /* margin: 10px 20px 5px; top, left/right, bottom */
+    /* auto só funciona para laterais no margin */
+}
+
+header {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: #777777;
+    display: inline-block;
+    font-size: 30px;
+    margin: 8px;
+}
+
+header h2 {
+    color: #AAAAAA;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 300;
+    margin: 0;
+}
+
+header button.menu {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: #AAAAAA;
+}
+
+section.banner {
+    margin: 20px 0;
+}
+
+section.banner img.slider {
+    width: 100%;
+}
+
+body ul {
+    list-style: none;
+}
+
+    .Big-Room {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+
+.carousel {
+    position: relative;
+}
+
+    .carousel .controls {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        top: 95px;
+    }
+
+            .left {
+                padding: 12px 17px 8px 14px;
+                margin: 12px;
+                background: rgba(141, 141, 141, 0.62); 
+                border: none;
+                border-radius: 30px;       
+                cursor: pointer;
+            }
+
+            .right {
+                padding: 12px 14px 8px 17px;
+                margin: 12px;
+                background: rgba(141, 141, 141, 0.62);
+                border: none;
+                border-radius: 30px;
+                cursor: pointer;
+            }
+
+.Modelos{
+    width: 608px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+        .New {
+            background-color: #EEEEEE;
+            text-align: justify;
+            display: inline-block;
+            width: 256px;
+            height: 242px;
+            margin: 0 48px 30px 0px;
+            max-width: 100%;
+            }
+
+        .Modelos2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .Sale {
+            background-color: #EEEEEE;
+            text-align: justify;
+            display: inline-block;
+            width: 256px;
+            height: 242px;
+            margin: 0 0 30px 48px;
+            max-width: 100%;
+        }
+
+        h3 {
+            display: inline-block;
+            padding: 10px;
+            margin: 0 13px;
+        } 
+
+        .condicaoDaCasa1 {
+            background-color: #51D275;
+            color: #FFFFFF;
+            border-radius: 10.5px;
+            padding: 2px 10px;
+        }
+
+        .condicaoDaCasa2 {
+            background-color: #DC9730;
+            color: #FFFFFF;
+            border-radius: 10.5px;
+            padding: 2px 10px;
+        }
+
+        article {
+            font-size: 10px;
+            padding: 10px;
+        }
+
+.SeuEstilo {
+    text-align: center;
+    font-size: 25px;
+}
+
+.meio {
+    padding-top: 28px;
+}
+
+        .YourStyle {
+            width: 608px;
+            height: 80px;
+            color: #888888;
+            margin: 0 auto;
+            margin-bottom: 13px;
+    }
+
+        .Industrial {
+            background-image: url(../img/Rectangle11.svg);
+            width: 608px;
+            height: 80px;
+            color: #FFFFFF;
+            margin: 0 auto;
+            margin-bottom: 13px;
+            opacity: 0.5;
+        }
+
+        .Modern {
+            background-image: url(../img/Rectangle12.svg);
+            width: 608px;
+          height: 80px;
+           color: #FFFFFF;
+           margin: 0 auto;
+           margin-bottom: 13px;
+           opacity: 0.5;
+        }
+
+        .Classic {
+            background-image: url(../img/Rectangle13.svg);
+            width: 608px;
+            height: 80px;
+            color: #FFFFFF;
+            margin: 0 auto;
+            margin-bottom: 57px;
+            opacity: 0.5;
+        }
+
+footer {
+    width: 697px;
+    max-width: 100%;
+    color: #ffffff;
+    background-color: #333333;
+    margin: 0 auto;        
+}
+
+    footer ul {
+        list-style: none;
+    }
+
+    footer ul li {
+        display: inline-block;
+    }
+
+    footer ul li img {
+            width: 20px;
+            margin: 8px;
+        }
+        
+        .gmap {
+            width: 45%;
+            display: inline-block;
+        }  
+
+        .gmap iframe {
+            width: 252px;
+            height: 163px;
+            margin: 20px 20px 0px 40px;
+            border-style: none;
+            border-radius: 25px;
+        }
+
+        .address {
+            font-size: 12px;
+            width: 30%;
+            display: inline-block;
+            margin: -30px -20px 10px 170px;
+        }
+
+        .eletro {
+            margin: 0 0 0 10px;
+        }
+
+        .rastro {
+            margin: -10px 0 45px -50px;
+            height: 20px;
+        }
